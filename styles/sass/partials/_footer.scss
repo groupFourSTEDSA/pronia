@@ -1,0 +1,75 @@
+@use "./variables" as *;
+// THIS IS THE FOOTER SECTION
+.backgroundImg {
+    background-image: url(../assets/footer.jpg);
+    background-size: 174rem 47rem;
+    background-repeat: no-repeat;
+    height: 43vh;
+}
+
+.dribble {
+    width: 20px;
+    height: 20px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38vh;
+}
+
+.footerContainer .logoFooter {
+    padding-bottom: 10px;
+}
+
+.footerContainer p {
+    width: 25rem;
+    line-height: 2.5rem;
+}
+
+.flexLinks {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.flexLinks ul {
+    margin-top: 0px;
+}
+
+.flexLinks ul li {
+    list-style: none;
+    padding-bottom: 11px;
+}
+
+.flexLinks h4 {
+    margin-bottom: 30px;
+}
+
+.number {
+    display: block;
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.socialIcon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid $blackColor;
+    padding: 15px 8px 9px 8px;
+    margin: 25px 10px 0px 0px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: $greenColor;
+}
+
+.pronia2023 {
+    text-align: center;
+    color: $greenColor;
+    padding-left: 5px;
+}

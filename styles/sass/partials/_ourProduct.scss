@@ -1,0 +1,71 @@
+@use "./variables" as *;
+// THIS IS THE OUR PRODUCTS SECTION
+section .ourProduct {
+    height: 100vh;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ourProduct h2 {
+    position: relative;
+}
+
+.ourProduct h2:before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: $greenColor;
+    position: absolute;
+    left: 32%;
+    top: 50%;
+    z-index: -2;
+}
+
+.ourProduct h2:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: $greenColor;
+    position: absolute;
+    right: 32%;
+    top: 50%;
+    z-index: -2;
+}
+
+.ourProductButtons {
+    text-align: center;
+}
+
+.ourProductButtons button {
+    margin: 30px 10px 40px 10px;
+}
+
+.productImgContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconBox {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 1px 1px 1px #201e1e1f;
+    border: none;
+    padding: 7px;
+}
+.cartIcon {
+    display: block;
+}
+.imageBox {
+    width: 25%;
+}
+
+.ourProduct .dollarColor {
+    color: $greenColor;
+}

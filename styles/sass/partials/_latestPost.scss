@@ -1,0 +1,78 @@
+@use "./variables" as *;
+// THIS IS THE SECTION FOR LATEST POSTS
+.latestPostSection {
+    height: 80vh;
+}
+
+.latestPostTitle {
+    text-align: center;
+}
+.latestPostTitle h2 {
+    margin: 0px 0px 40px 0px;
+    position: relative;
+}
+
+.latestPostTitle h2:before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: $greenColor;
+    position: absolute;
+    left: 32%;
+    top: 50%;
+    z-index: -2;
+}
+
+.latestPostTitle h2:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: $greenColor;
+    position: absolute;
+    right: 32%;
+    top: 50%;
+    z-index: -2;
+}
+
+.postFlexContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.postBackgroundOne,
+.postBackgroundTwo,
+.postBackgroundThree {
+    background-color: $faintBlueColor;
+    border-radius: 10px;
+}
+
+.admin {
+    display: flex;
+}
+
+.admin p {
+    margin-right: 20px;
+    color: $greenColor;
+}
+
+.latestPostSection h3 span {
+    display: block;
+}
+
+.loremText {
+    width: 24rem;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.contentPost {
+    padding: 20px 20px 30px 20px;
+}
+
+.contentPost img {
+    width: 28rem;
+}

@@ -1,0 +1,31 @@
+@use "./variables" as *;
+// GENERIC STYLING
+html {
+    font-size: 62.5%;
+}
+
+body, p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: $greenColor;
+    color: $whiteColor;
+}

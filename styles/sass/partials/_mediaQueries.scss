@@ -1,0 +1,383 @@
+@use "./variables" as *;
+//  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
+//  THIS IS THE HEADER SECTION 
+@media (max-width: 1024px) {
+    .discountBar .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cadEng {
+        justify-content: flex-end;
+    }
+    .navContainer {
+        padding: 15px 0px 15px 0px;
+    }
+    header .newPlantBackground {
+        padding: 20px 0px 20px 0px;
+    }
+    .newPlantText h1 {
+        font-size: 5rem;
+    }
+    .newPlantText p {
+        font-size: 1.6rem;
+    }
+    .shipPayServe.wrapper {
+        padding-top: 68px;
+    }
+    .headerPng {
+        width: 45rem;
+    }
+    .iconContainer {
+        padding: 10px 0px 5px 14px;
+    }
+    // THIS IS THE OUR PRODUCT SECTION
+    .ourProduct h2::before {
+        left: 24%;
+    }
+    .ourProduct h2::after {
+        right: 24%;
+    }
+    .productImgContainer {
+        width: 100%;
+        justify-content: center;
+    }
+    .imageBox {
+        width: 22%;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    .imageBox img {
+        width: 100%;
+    }
+    // THIS IS THE GALLARY SHOP NOW SECTION
+    .cactusImgOne, .cactusImgTwo {
+        background-position: center;
+        padding: 0px 0px 0px 29px;
+    }
+    // THIS IS THE LATEST POST SECTION
+    .latestPostSection {
+        height: 135vh;
+    }
+    .postFlexContainer {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .latestPostTitle {
+        margin-top: 50px;
+    }
+    .latestPostSection h2::before {
+        left: 24%;
+    }
+    .latestPostSection h2::after {
+        right: 25%;
+    }
+    .postBackgroundOne,
+    .postBackgroundTwo,
+    .postBackgroundThree {
+        margin-bottom: 10px;
+    }
+    .postBackgroundOne {
+        margin-right: 10px;
+    }
+    .contentPost img {
+        width: 26rem;
+    }
+    // THIS IS THE FOOTER SECTION
+    .footerContainer {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .footerContainer p {
+        width: 45rem;
+    }
+    .socialIcon {
+        margin: 5px 10px 0px 0px;
+    }
+    .mediaQText {
+        text-align: center;
+    }
+    .backgroundImg {
+        background-size: contain;
+        background-position: bottom;
+        background-color: $lightGrey;
+    }
+    // THIS IS THE CONTACT PAGE AT 1024 MAX-WIDTH
+    form {
+        width: 100%;
+        padding: 20px 40px 40px 40px;
+    }
+    .mainContact {
+        height: 100vh;
+    }
+   .contactBorder {
+    flex-direction: column;
+    height: 74rem;
+   }
+   .contactInfo {
+    background-size: 64rem 92rem;
+    width: 100%;
+    height: 24rem;
+   }
+   .contactInfo h2 {
+    margin-top: 0px;
+   }
+   .contactInfo p{
+    margin-bottom: 0px;
+   }
+   .contactEmail {
+    margin-top: 0px;
+   }
+   .contactAddress {
+    padding-bottom: 15px;
+   }
+}
+// THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 768PX
+// THIS IS THE HEADER SECTION 
+@media (max-width: 768px) {
+    .navContainer ul {
+        width: 50%;
+    }
+    .iconCar, .iconCred, .iconServe {
+        margin-right: 7px;
+    }
+    .iconContainer {
+        padding: 2px 0px 0px 2px;
+    }
+    .ourProduct h2::before {
+        left: 16%;
+    }
+    .ourProduct h2::after {
+        right: 16%;
+    }
+    .ourProductButtons button {
+        margin: 5px 10px 20px 10px;
+    }
+    .imageBox {
+        width: 25%;
+        align-content: end;
+        display: flex;
+        flex-direction: column;
+    }
+    // THIS IS THE SHOP NOW SECTION
+    .shopGallary {
+        height: 100vh;
+        margin-top: 40px;
+    }
+    .cactusImgOne, .cactusImgTwo {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .cactusImgTwo {
+        margin-left: 0px;
+    }
+    .plantPortOne, .plantPortTwo {
+        width: calc(53% - 15px - 15px);
+        margin: 15px;
+    }
+    .plantPortOne {
+        margin-left: 0px;
+    }
+    .plantPortTwo {
+        margin-right: 0px;
+    }
+    // THIS IS THE LATEST POST SECTION
+    .latestPostSection {
+        margin-top: 80px;
+        height: 190vh;
+    }
+    .latestPostSection h2::before {
+        left: 17%;
+    }
+    .latestPostSection h2::after {
+        right: 17%;
+    }
+    .postFlexContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .postBackgroundOne,
+    .postBackgroundTwo,
+    .postBackgroundThree {
+        margin-bottom: 15px;
+    }
+    .flexLinks ul {
+        padding: 0px;
+        margin: 3px;
+    }
+    .flexLinks ul li {
+        padding-bottom: 4px;
+    }
+    .line {
+        margin-top: 10px;
+    }
+    footer h3 {
+        font-size: 1.5rem;
+    }
+    // THIS IS THE CONTACT PAGE AT 768 MAX-WIDTH
+    .contact {
+        height: 18vh;
+        background-size: contain;
+    }
+    .headerContact {
+        height: 30vh;
+    }
+}
+// THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 320PX
+// THIS IS THE HEADER SECTION
+@media (max-width: 320px) {
+    header {
+        height: 70vh;
+    }
+    .fa-solid.fa-bars {
+        display: block;
+        position: absolute;
+        top: 6.75rem;
+        right: 2rem;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 4rem;
+        width: 58px;
+        height: 38px;
+    }
+    .navContainer ul, .bagIcon {
+        display: none;
+    }
+    .itemCart span{
+        display: none;
+    }
+    .wrapper {
+        width: 90%;
+    }
+    .discountBar .wrapper {
+        flex-direction: column;
+        align-items: end;
+    }
+    .discountBar p {
+        margin-bottom: 0px;
+    }
+    .newPlantText h1 {
+        font-size: 3rem;
+    }
+    .headerPng {
+        width: 15rem;
+    }
+    .shipPayServe.wrapper {
+        padding-top: 40px;
+    }
+    .shipPayServe.wrapper .iconText {
+        font-size: 1.6rem;
+    }
+    .newPlantText .sixtyFive {
+        font-size: 2rem;
+    }
+    .iconCar, .iconCred, .iconServe {
+        width: 3rem;
+        height: 3rem;
+    }
+    .iconContainer {
+        flex-direction: column;
+    }
+    .iconContainer p {
+        padding-left: 5px;
+    }
+    // THIS IS THE OUR PRODUCT SECTION
+    .ourProduct h2 {
+        font-size: 1.9rem;
+    }
+    .ourProduct h2::before {
+        left: 4%;
+    }
+    .ourProduct h2::after {
+        right: 4%;
+    }
+    button {
+        width: 130px;
+    }
+    // THIS IS THE SHOP NOW SECTION
+    .cactusImgOne {
+        margin-bottom: 10px;
+    }
+    .cactusImgTwo {
+        margin-top: 10px;
+    }
+    .plantPortOne {
+        width: 46%;
+        margin: 0px 10px 0px 0px;
+    }
+    .plantPortTwo {
+        width: 46%;
+        margin: 0px 0px 0px 10px;
+    }
+    .shopNowContainer h2 {
+        font-size: 2.1rem;
+    }
+    // THIS IS THE LATEST POSTS SECTION
+    .latestPostSection h2 {
+        font-size: 1.9rem;
+    }
+    .latestPostSection h2::before {
+        left: 4%;
+    }
+    .latestPostSection h2::after {
+        right: 4%;
+    }
+    .contentPost {
+        padding: 10px 10px 20px 10px;
+    }
+    // THIS IS THE FOOTER SECTION
+    .footerContainer p {
+        width: 30rem;
+        margin-bottom: 0px;
+        line-height: 2rem;
+    }
+    .backgroundImg {
+        background-size: contain;
+        background-position: bottom;
+        background-color: $lightGrey;
+        height: 76vh;
+    }
+    .flexLinks {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 62px;
+    }
+    .footerContainer {
+        height: 70vh;
+    }
+    .flexLinks ul li {
+        padding-bottom: 2px;
+    }
+    .flexLinks h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    // THIS IS THE CONTACT SECTION MAX-WIDTH 320PX
+    .contact {
+        height: 9vh;
+    }
+    .headerContact {
+        height: 32vh;
+    }
+    .contactInfo {
+        background-size: 30rem 40rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactBorder {
+        height: 93rem;
+        margin-bottom: 80px;
+    }
+    input[type="text"] {
+        width: calc(100% - 5px - 5px - 5px);
+    }
+    input[id="phone"],[id="email"] {
+        width: calc(100% - 5px - 5px - 5px);
+    }
+
+    
+}

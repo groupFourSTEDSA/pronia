@@ -1,0 +1,137 @@
+@use "./variables" as *;
+// THIS IS THE HEADER SECTION
+header {
+    height: 100vh;
+}
+
+.discountBar {
+    background-color: $greenColor;
+    color: $whiteColor;
+}
+.discountBar .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cadEng {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
+.itemCart {
+    position: relative;
+    text-align: right;
+    display: flex;
+}
+
+.itemCart span {
+    background-color: $greenColor;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $whiteColor;
+    position: absolute;
+    top: 6px;
+    left: 62%;
+    padding: 0px 4px;
+}
+.cadEng p {
+    padding-left: 16px;
+}
+
+.fa-solid.fa-bars {
+    display: none;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+
+.proniaLogo {
+    width: 7rem;
+}
+
+.navContainer ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navContainer li a {
+    text-decoration: none;
+    color: $blackColor;
+}
+
+.navContainer li a:hover {
+    color: $greenColor;
+}
+
+.bagIcon, .cartIcon {
+    width: 1.5rem;
+}
+
+header .newPlantBackground {
+    background-color: $peachColor;
+    padding: 40px 0px 40px 0px;
+}
+
+.newPlantBackground .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newPlantText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newPlantText h1 {
+    font-size: 7rem;
+    margin-bottom: 0px;
+}
+
+.newPlantText .sixtyFive {
+    display: block;
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+.newPlantText p {
+    font-size: 1.79rem;
+    margin-bottom: 50px;
+}
+
+.shipPayServe.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.iconCar, .iconCred, .iconServe {
+    width: 4rem;
+    height: 4rem;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.shipPayServe.wrapper .iconText {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.iconContainer {
+    display: flex;
+    border: 2px dotted $greenColor;
+    width: 31%;
+    padding: 10px 0px 5px 40px;
+    border-radius: 6px;
+}

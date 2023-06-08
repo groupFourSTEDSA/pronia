@@ -1,0 +1,1151 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body, p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+body, header {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #abd373;
+  color: #fff;
+}
+
+header {
+  height: 100vh;
+}
+
+.discountBar {
+  background-color: #abd373;
+  color: #fff;
+}
+
+.discountBar .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cadEng {
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+}
+
+.itemCart {
+  position: relative;
+  text-align: right;
+  display: flex;
+}
+
+.itemCart span {
+  background-color: #abd373;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: 6px;
+  left: 62%;
+  padding: 0px 4px;
+}
+
+.cadEng p {
+  padding-left: 16px;
+}
+
+.fa-solid.fa-bars {
+  display: none;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+}
+
+.proniaLogo {
+  width: 7rem;
+}
+
+.navContainer ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0;
+}
+
+.navContainer li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navContainer li a:hover {
+  color: #abd373;
+}
+
+.bagIcon, .cartIcon {
+  width: 1.5rem;
+}
+
+header .newPlantBackground {
+  background-color: #F8EEE5;
+  padding: 40px 0px 40px 0px;
+}
+
+.newPlantBackground .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newPlantText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newPlantText h1 {
+  font-size: 7rem;
+  margin-bottom: 0px;
+}
+
+.newPlantText .sixtyFive {
+  display: block;
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+.newPlantText p {
+  font-size: 1.79rem;
+  margin-bottom: 50px;
+}
+
+.shipPayServe.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.iconCar, .iconCred, .iconServe {
+  width: 4rem;
+  height: 4rem;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.shipPayServe.wrapper .iconText {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.iconContainer {
+  display: flex;
+  border: 2px dotted #abd373;
+  width: 31%;
+  padding: 10px 0px 5px 40px;
+  border-radius: 6px;
+}
+
+section .ourProduct {
+  height: 100vh;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ourProduct h2 {
+  position: relative;
+}
+
+.ourProduct h2:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #abd373;
+  position: absolute;
+  left: 32%;
+  top: 50%;
+  z-index: -2;
+}
+
+.ourProduct h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #abd373;
+  position: absolute;
+  right: 32%;
+  top: 50%;
+  z-index: -2;
+}
+
+.ourProductButtons {
+  text-align: center;
+}
+
+.ourProductButtons button {
+  margin: 30px 10px 40px 10px;
+}
+
+.productImgContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iconBox {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 1px 1px 1px rgba(32, 30, 30, 0.1215686275);
+  border: none;
+  padding: 7px;
+}
+
+.cartIcon {
+  display: block;
+}
+
+.imageBox {
+  width: 25%;
+}
+
+.ourProduct .dollarColor {
+  color: #abd373;
+}
+
+.shopGallary {
+  height: 70vh;
+  margin: 80px 0px 0px 0px;
+}
+
+.shopNowContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopNowContainer h2 span {
+  display: block;
+  text-align: left;
+}
+
+.shopNowContainer h2 {
+  font-size: 3rem;
+  margin-top: 0px;
+}
+
+.cactusImgOne, .cactusImgTwo {
+  height: 30rem;
+  width: 66%;
+  margin: 15px;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0px 0px 10px 50px;
+}
+
+.cactusImgOne {
+  background-image: url(../assets/b1.jpeg);
+  background-repeat: no-repeat;
+  margin-left: 0px;
+}
+
+.cactusImgTwo {
+  background-image: url(../assets/b4.jpeg);
+  background-repeat: no-repeat;
+  margin-right: 0px;
+}
+
+.plantPortOne, .plantPortTwo {
+  height: 30rem;
+  width: calc(34% - 15px - 15px);
+  margin: 15px;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.plantPortOne {
+  background-image: url(../assets/b2.jpeg);
+  background-repeat: no-repeat;
+  margin-right: 0px;
+}
+
+.plantPortTwo {
+  background-image: url(../assets/b3.jpeg);
+  background-repeat: no-repeat;
+  margin-left: 0px;
+}
+
+.latestPostSection {
+  height: 80vh;
+}
+
+.latestPostTitle {
+  text-align: center;
+}
+
+.latestPostTitle h2 {
+  margin: 0px 0px 40px 0px;
+  position: relative;
+}
+
+.latestPostTitle h2:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #abd373;
+  position: absolute;
+  left: 32%;
+  top: 50%;
+  z-index: -2;
+}
+
+.latestPostTitle h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #abd373;
+  position: absolute;
+  right: 32%;
+  top: 50%;
+  z-index: -2;
+}
+
+.postFlexContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.postBackgroundOne,
+.postBackgroundTwo,
+.postBackgroundThree {
+  background-color: #f6f7fb;
+  border-radius: 10px;
+}
+
+.admin {
+  display: flex;
+}
+
+.admin p {
+  margin-right: 20px;
+  color: #abd373;
+}
+
+.latestPostSection h3 span {
+  display: block;
+}
+
+.loremText {
+  width: 24rem;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.contentPost {
+  padding: 20px 20px 30px 20px;
+}
+
+.contentPost img {
+  width: 28rem;
+}
+
+.backgroundImg {
+  background-image: url(../assets/footer.jpg);
+  background-size: 174rem 47rem;
+  background-repeat: no-repeat;
+  height: 43vh;
+}
+
+.dribble {
+  width: 20px;
+  height: 20px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 38vh;
+}
+
+.footerContainer .logoFooter {
+  padding-bottom: 10px;
+}
+
+.footerContainer p {
+  width: 25rem;
+  line-height: 2.5rem;
+}
+
+.flexLinks {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.flexLinks ul {
+  margin-top: 0px;
+}
+
+.flexLinks ul li {
+  list-style: none;
+  padding-bottom: 11px;
+}
+
+.flexLinks h4 {
+  margin-bottom: 30px;
+}
+
+.number {
+  display: block;
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  padding: 15px 8px 9px 8px;
+  margin: 25px 10px 0px 0px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #abd373;
+}
+
+.pronia2023 {
+  text-align: center;
+  color: #abd373;
+  padding-left: 5px;
+}
+
+.headerContact {
+  height: 38.5vh;
+}
+
+.contact {
+  background-image: url(../assets/contact-header.jpg);
+  height: 26vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainContact {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactBorder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 55rem;
+  color: #fff;
+}
+
+.contactInfo {
+  background-image: url(../assets/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 32%;
+  height: 55rem;
+  padding: 20px 0px 0px 40px;
+}
+
+.contactInfo h2 {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.contactInfo p {
+  width: 85%;
+  margin-bottom: 35px;
+  line-height: 22px;
+}
+
+.contactNum {
+  font-size: 1.5rem;
+}
+
+.contactEmail {
+  font-size: 1.8rem;
+}
+
+.contactAddress {
+  font-size: 1.6rem;
+}
+
+form {
+  width: 68%;
+  height: inherit;
+  padding: 40px 40px;
+}
+
+input[type=text] {
+  margin: 40px 5px 5px 5px;
+  width: calc(50% - 5px - 5px - 5px);
+  border: none;
+  border-bottom: 2px solid #f6f7fb;
+  color: #4c4c4c;
+  padding: 10px 0px;
+}
+
+input[id=phone], [id=email] {
+  margin: 40px 5px 5px 5px;
+  width: calc(50% - 5px - 5px - 5px);
+  border: none;
+  border-bottom: 2px solid #f6f7fb;
+  color: #4c4c4c;
+  padding: 10px 0px;
+}
+
+textarea {
+  margin: 40px 5px 5px 5px;
+  width: calc(100% - 5px - 5px - 5px);
+  border: none;
+  border-bottom: 2px solid #f6f7fb;
+  color: #4c4c4c;
+  height: 14rem;
+}
+
+input[type=submit] {
+  float: right;
+  padding: 18px;
+  color: #fff;
+  background: #abd373;
+  border-radius: 5px;
+  border: none;
+  margin-top: 40px;
+  width: 18rem;
+}
+
+@media (max-width: 1024px) {
+  .discountBar .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cadEng {
+    justify-content: flex-end;
+  }
+  .navContainer {
+    padding: 15px 0px 15px 0px;
+  }
+  header .newPlantBackground {
+    padding: 20px 0px 20px 0px;
+  }
+  .newPlantText h1 {
+    font-size: 5rem;
+  }
+  .newPlantText p {
+    font-size: 1.6rem;
+  }
+  .shipPayServe.wrapper {
+    padding-top: 68px;
+  }
+  .headerPng {
+    width: 45rem;
+  }
+  .iconContainer {
+    padding: 10px 0px 5px 14px;
+  }
+  .ourProduct h2::before {
+    left: 24%;
+  }
+  .ourProduct h2::after {
+    right: 24%;
+  }
+  .productImgContainer {
+    width: 100%;
+    justify-content: center;
+  }
+  .imageBox {
+    width: 22%;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .imageBox img {
+    width: 100%;
+  }
+  .cactusImgOne, .cactusImgTwo {
+    background-position: center;
+    padding: 0px 0px 0px 29px;
+  }
+  .latestPostSection {
+    height: 135vh;
+  }
+  .postFlexContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .latestPostTitle {
+    margin-top: 50px;
+  }
+  .latestPostSection h2::before {
+    left: 24%;
+  }
+  .latestPostSection h2::after {
+    right: 25%;
+  }
+  .postBackgroundOne,
+  .postBackgroundTwo,
+  .postBackgroundThree {
+    margin-bottom: 10px;
+  }
+  .postBackgroundOne {
+    margin-right: 10px;
+  }
+  .contentPost img {
+    width: 26rem;
+  }
+  .footerContainer {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .footerContainer p {
+    width: 45rem;
+  }
+  .socialIcon {
+    margin: 5px 10px 0px 0px;
+  }
+  .mediaQText {
+    text-align: center;
+  }
+  .backgroundImg {
+    background-size: contain;
+    background-position: bottom;
+    background-color: #d8e9d6;
+  }
+  form {
+    width: 100%;
+    padding: 20px 40px 40px 40px;
+  }
+  .mainContact {
+    height: 100vh;
+  }
+  .contactBorder {
+    flex-direction: column;
+    height: 74rem;
+  }
+  .contactInfo {
+    background-size: 64rem 92rem;
+    width: 100%;
+    height: 24rem;
+  }
+  .contactInfo h2 {
+    margin-top: 0px;
+  }
+  .contactInfo p {
+    margin-bottom: 0px;
+  }
+  .contactEmail {
+    margin-top: 0px;
+  }
+  .contactAddress {
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .navContainer ul {
+    width: 50%;
+  }
+  .iconCar, .iconCred, .iconServe {
+    margin-right: 7px;
+  }
+  .iconContainer {
+    padding: 2px 0px 0px 2px;
+  }
+  .ourProduct h2::before {
+    left: 16%;
+  }
+  .ourProduct h2::after {
+    right: 16%;
+  }
+  .ourProductButtons button {
+    margin: 5px 10px 20px 10px;
+  }
+  .imageBox {
+    width: 25%;
+    align-content: end;
+    display: flex;
+    flex-direction: column;
+  }
+  .shopGallary {
+    height: 100vh;
+    margin-top: 40px;
+  }
+  .cactusImgOne, .cactusImgTwo {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .cactusImgTwo {
+    margin-left: 0px;
+  }
+  .plantPortOne, .plantPortTwo {
+    width: calc(53% - 15px - 15px);
+    margin: 15px;
+  }
+  .plantPortOne {
+    margin-left: 0px;
+  }
+  .plantPortTwo {
+    margin-right: 0px;
+  }
+  .latestPostSection {
+    margin-top: 80px;
+    height: 190vh;
+  }
+  .latestPostSection h2::before {
+    left: 17%;
+  }
+  .latestPostSection h2::after {
+    right: 17%;
+  }
+  .postFlexContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .postBackgroundOne,
+  .postBackgroundTwo,
+  .postBackgroundThree {
+    margin-bottom: 15px;
+  }
+  .flexLinks ul {
+    padding: 0px;
+    margin: 3px;
+  }
+  .flexLinks ul li {
+    padding-bottom: 4px;
+  }
+  .line {
+    margin-top: 10px;
+  }
+  footer h3 {
+    font-size: 1.5rem;
+  }
+  .contact {
+    height: 18vh;
+    background-size: contain;
+  }
+  .headerContact {
+    height: 30vh;
+  }
+}
+@media (max-width: 320px) {
+  header {
+    height: 70vh;
+  }
+  .fa-solid.fa-bars {
+    display: block;
+    position: absolute;
+    top: 6.75rem;
+    right: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 4rem;
+    width: 58px;
+    height: 38px;
+  }
+  .navContainer ul, .bagIcon {
+    display: none;
+  }
+  .itemCart span {
+    display: none;
+  }
+  .wrapper {
+    width: 90%;
+  }
+  .discountBar .wrapper {
+    flex-direction: column;
+    align-items: end;
+  }
+  .discountBar p {
+    margin-bottom: 0px;
+  }
+  .newPlantText h1 {
+    font-size: 3rem;
+  }
+  .headerPng {
+    width: 15rem;
+  }
+  .shipPayServe.wrapper {
+    padding-top: 40px;
+  }
+  .shipPayServe.wrapper .iconText {
+    font-size: 1.6rem;
+  }
+  .newPlantText .sixtyFive {
+    font-size: 2rem;
+  }
+  .iconCar, .iconCred, .iconServe {
+    width: 3rem;
+    height: 3rem;
+  }
+  .iconContainer {
+    flex-direction: column;
+  }
+  .iconContainer p {
+    padding-left: 5px;
+  }
+  .ourProduct h2 {
+    font-size: 1.9rem;
+  }
+  .ourProduct h2::before {
+    left: 4%;
+  }
+  .ourProduct h2::after {
+    right: 4%;
+  }
+  button {
+    width: 130px;
+  }
+  .cactusImgOne {
+    margin-bottom: 10px;
+  }
+  .cactusImgTwo {
+    margin-top: 10px;
+  }
+  .plantPortOne {
+    width: 46%;
+    margin: 0px 10px 0px 0px;
+  }
+  .plantPortTwo {
+    width: 46%;
+    margin: 0px 0px 0px 10px;
+  }
+  .shopNowContainer h2 {
+    font-size: 2.1rem;
+  }
+  .latestPostSection h2 {
+    font-size: 1.9rem;
+  }
+  .latestPostSection h2::before {
+    left: 4%;
+  }
+  .latestPostSection h2::after {
+    right: 4%;
+  }
+  .contentPost {
+    padding: 10px 10px 20px 10px;
+  }
+  .footerContainer p {
+    width: 30rem;
+    margin-bottom: 0px;
+    line-height: 2rem;
+  }
+  .backgroundImg {
+    background-size: contain;
+    background-position: bottom;
+    background-color: #d8e9d6;
+    height: 76vh;
+  }
+  .flexLinks {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 62px;
+  }
+  .footerContainer {
+    height: 70vh;
+  }
+  .flexLinks ul li {
+    padding-bottom: 2px;
+  }
+  .flexLinks h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .contact {
+    height: 9vh;
+  }
+  .headerContact {
+    height: 32vh;
+  }
+  .contactInfo {
+    background-size: 30rem 40rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactBorder {
+    height: 93rem;
+    margin-bottom: 80px;
+  }
+  input[type=text] {
+    width: calc(100% - 5px - 5px - 5px);
+  }
+  input[id=phone], [id=email] {
+    width: calc(100% - 5px - 5px - 5px);
+  }
+}
