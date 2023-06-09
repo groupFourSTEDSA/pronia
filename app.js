@@ -24,6 +24,7 @@
  // create a function that filters and finds the selected searched item
  // create a variable to target the product array(json), where the Id = 1, name: “Product 1” // add styling to the result section where the resulted items will appear
  // display searchResults in the results element
+ 
 
 //  Implement a ratings and review system that allows user to leave feedback and ratings on products
  // create a carousel to hold the ratings and comments
