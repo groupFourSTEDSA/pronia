@@ -1,7 +1,7 @@
 {
     "plants":{
         "plant1":{
-            "url": "./assets/p2.jpeg",
+            "url": "",
             "name": "American Marigold",
             "id": "01",
             "rating Value":"",
@@ -29,7 +29,7 @@
             "url": "",
             "name": "American Marigold",
             "id": "04",
-            "rating Value":"",
+            "rating Vallue":"",
             "comment":"",
             "cart quantity":""
         },
