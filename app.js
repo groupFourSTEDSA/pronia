@@ -1,7 +1,14 @@
 // Pseudo Code
-
 // Create a new Firebase project
  // Create a firebase.js file to Import SDK
+import {app} from './firebase.js';
+import {getDatabase, ref} from 'https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js'
+
+const database = getDatabase(app);
+const dbRef = ref(database);
+
+console.log(database);
+
  // Import Json into our Firebase
  // Link Firebase to apps.js in our code
  // Initialize the app for web usage and get the config info
