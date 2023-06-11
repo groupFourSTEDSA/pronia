@@ -1,69 +1,65 @@
 {
+    "cart": {
+        "cartNumber": 0
+    },
+
     "plants":{
         "plant1":{
             "url": "./assets/p2.jpeg",
             "name": "American Marigold",
-            "id": "01",
+            "id": "1",
             "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "comment":""
             
         },
         "plant2":{
             "url": "./assets/p1.jpeg",
             "name": "Black Eyed Susan",
-            "id": "02",
+            "id": "2",
             "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "comment":""
         },
         "plant3":{
             "url": "./assets/p3.jpeg",
             "name": "Bleeding Heart",
-            "id": "03",
+            "id": "3",
             "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "comment":""
         },
         "plant4":{
             "url": "./assets/p4.jpeg",
             "name": "Bloody Cranesbill",
-            "id": "04",
+            "id": "4",
             "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "comment":""
         },
         "plant5":{
             "url": "./assets/p5.jpeg",
             "name": "Butterfly Weed",
-            "id": "05",
+            "id": "5",
             "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "comment":""
         },
         "plant6":{
             "url": "./assets/p6.jpeg",
             "name": "Common Yarrow",
-            "id": "06",
+            "id": "6",
             "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "comment":""
         },
         "plant7":{
             "url": "./assets/p7.jpeg",
             "name": "Doublefire Viburnum",
-            "id": "07",
+            "id": "7",
             "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "comment":""
         },
         "plant8":{
             "url": "./assets/p8.jpeg",
             "name": "Feather Reed Grass",
-            "id": "08",
+            "id": "8",
             "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "comment":""
         }
         
 
