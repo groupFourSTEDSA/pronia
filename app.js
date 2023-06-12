@@ -2,20 +2,36 @@
 // Create a new Firebase project
  // Create a firebase.js file to Import SDK
 import {app} from './firebase.js';
-import {getDatabase, ref} from 'https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js'
+import {getDatabase, ref, set} from 'https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js'
 
-const database = getDatabase(app);
-const dbRef = ref(database);
-
-console.log(database);
-
- // Import Json into our Firebase
+// Import Json into our Firebase
  // Link Firebase to apps.js in our code
  // Initialize the app for web usage and get the config info
 
- // Increase the cart count
- // Target the empty cart button using querySelectorbyID
- // create an EventListener to listen for when the add to cart button is clicked, the cart number increases on the page and update the database on Firebase
+
+// Increase the cart count
+const cartIcons = document.querySelectorAll(".iconBox");
+
+// Initialize the cart count
+let count = 0;
+
+// Attach a click event listener to each cart icon
+cartIcons.forEach((cartIcon) => {
+     // create an EventListener to listen for when the add to cart button is clicked, the cart number increases on the page and update the database on Firebase
+  cartIcon.addEventListener("click", () => {
+    // Increment the count
+    count++;
+
+    // Target the empty cart button using querySelectorbyID
+    // Update the cart number text
+    const cartNumber = document.getElementById("cartNumber");
+    cartNumber.textContent = count;
+
+  });
+});
+ 
+
+
  // use the button Id to create the reference in the database
  // Target the add to cart button using QuerySelector
  // create an empty array for the cart
