@@ -1,75 +1,67 @@
 {
+    "cart": {
+        "cartNumber": 0
+    },
+
     "plants":{
         "plant1":{
-            "url": "",
+            "url": "./assets/p2.jpeg",
             "name": "American Marigold",
-            "id": "01",
-            "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "id": "1",
+            "rating":"",
+            "comment":""
             
         },
         "plant2":{
-            "url": "",
-            "name": "American Marigold",
-            "id": "02",
-            "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "url": "./assets/p1.jpeg",
+            "name": "Black Eyed Susan",
+            "id": "2",
+            "rating":"",
+            "comment":""
         },
         "plant3":{
-            "url": "",
-            "name": "American Marigold",
-            "id": "03",
-            "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "url": "./assets/p3.jpeg",
+            "name": "Bleeding Heart",
+            "id": "3",
+            "rating":"",
+            "comment":""
         },
         "plant4":{
-            "url": "",
-            "name": "American Marigold",
-            "id": "04",
-            "rating Vallue":"",
-            "comment":"",
-            "cart quantity":""
+            "url": "./assets/p4.jpeg",
+            "name": "Bloody Cranesbill",
+            "id": "4",
+            "rating":"",
+            "comment":""
         },
         "plant5":{
-            "url": "",
-            "name": "American Marigold",
-            "id": "05",
-            "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "url": "./assets/p5.jpeg",
+            "name": "Butterfly Weed",
+            "id": "5",
+            "rating":"",
+            "comment":""
         },
         "plant6":{
-            "url": "",
-            "name": "American Marigold",
-            "id": "06",
-            "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "url": "./assets/p6.jpeg",
+            "name": "Common Yarrow",
+            "id": "6",
+            "rating":"",
+            "comment":""
         },
         "plant7":{
-            "url": "",
-            "name": "American Marigold",
-            "id": "07",
-            "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "url": "./assets/p7.jpeg",
+            "name": "Doublefire Viburnum",
+            "id": "7",
+            "rating":"",
+            "comment":""
         },
         "plant8":{
-            "url": "",
-            "name": "American Marigold",
-            "id": "08",
-            "rating Value":"",
-            "comment":"",
-            "cart quantity":""
+            "url": "./assets/p8.jpeg",
+            "name": "Feather Reed Grass",
+            "id": "8",
+            "rating":"",
+            "comment":""
         }
         
-
-
-
-
 
     }
     
