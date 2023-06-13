@@ -436,12 +436,6 @@ h2 {
   margin: 30px 10px 40px 10px;
 }
 
-.search {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .productImgContainer {
   display: flex;
   flex-wrap: wrap;

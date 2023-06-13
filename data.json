@@ -1,0 +1,76 @@
+{
+    "plants":{
+        "plant1":{
+            "url": "./assets/p2.jpeg",
+            "name": "American Marigold",
+            "id": "01",
+            "rating Value":"",
+            "comment":"",
+            "cart quantity":""
+            
+        },
+        "plant2":{
+            "url": "",
+            "name": "American Marigold",
+            "id": "02",
+            "rating Value":"",
+            "comment":"",
+            "cart quantity":""
+        },
+        "plant3":{
+            "url": "",
+            "name": "American Marigold",
+            "id": "03",
+            "rating Value":"",
+            "comment":"",
+            "cart quantity":""
+        },
+        "plant4":{
+            "url": "",
+            "name": "American Marigold",
+            "id": "04",
+            "rating Value":"",
+            "comment":"",
+            "cart quantity":""
+        },
+        "plant5":{
+            "url": "",
+            "name": "American Marigold",
+            "id": "05",
+            "rating Value":"",
+            "comment":"",
+            "cart quantity":""
+        },
+        "plant6":{
+            "url": "",
+            "name": "American Marigold",
+            "id": "06",
+            "rating Value":"",
+            "comment":"",
+            "cart quantity":""
+        },
+        "plant7":{
+            "url": "",
+            "name": "American Marigold",
+            "id": "07",
+            "rating Value":"",
+            "comment":"",
+            "cart quantity":""
+        },
+        "plant8":{
+            "url": "",
+            "name": "American Marigold",
+            "id": "08",
+            "rating Value":"",
+            "comment":"",
+            "cart quantity":""
+        }
+        
+
+
+
+
+
+    }
+    
+}
