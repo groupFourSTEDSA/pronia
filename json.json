@@ -5,7 +5,7 @@
 
     "plants":{
         "plant1":{
-            "url": "./assets/p2.jpeg",
+            "url": "assets/p2.jpeg",
             "name": "American Marigold",
             "id": "1",
             "rating":"",
@@ -13,49 +13,49 @@
             
         },
         "plant2":{
-            "url": "./assets/p1.jpeg",
+            "url": "assets/p1.jpeg",
             "name": "Black Eyed Susan",
             "id": "2",
             "rating":"",
             "comment":""
         },
         "plant3":{
-            "url": "./assets/p3.jpeg",
+            "url": "assets/p3.jpeg",
             "name": "Bleeding Heart",
             "id": "3",
             "rating":"",
             "comment":""
         },
         "plant4":{
-            "url": "./assets/p4.jpeg",
+            "url": "assets/p4.jpeg",
             "name": "Bloody Cranesbill",
             "id": "4",
             "rating":"",
             "comment":""
         },
         "plant5":{
-            "url": "./assets/p5.jpeg",
+            "url": "assets/p5.jpeg",
             "name": "Butterfly Weed",
             "id": "5",
             "rating":"",
             "comment":""
         },
         "plant6":{
-            "url": "./assets/p6.jpeg",
+            "url": "assets/p6.jpeg",
             "name": "Common Yarrow",
             "id": "6",
             "rating":"",
             "comment":""
         },
         "plant7":{
-            "url": "./assets/p7.jpeg",
+            "url": "assets/p7.jpeg",
             "name": "Doublefire Viburnum",
             "id": "7",
             "rating":"",
             "comment":""
         },
         "plant8":{
-            "url": "./assets/p8.jpeg",
+            "url": "assets/p8.jpeg",
             "name": "Feather Reed Grass",
             "id": "8",
             "rating":"",
