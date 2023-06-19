@@ -1,8 +1,11 @@
 // Pseudo Code
 // Create a new Firebase project
  // Create a firebase.js file to Import SDK
-  import {app} from './firebase.js';
-  import {getDatabase, ref, set} from 'https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js'
+import {app} from './firebase.js';
+import {getDatabase, ref, set, get} from 'https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js'
+
+const database = getDatabase(app);
+const dbRef = ref(database);
 
  // Import Json into our Firebase
   // Link Firebase to apps.js in our code
@@ -44,29 +47,51 @@
         console.error("Error updating cart count in Firebase:", error);
       });
   }
+ 
+//  Implement a search bar that allows user to search for products by name 
+// Create an input element for the search(searchInput) in the html
+ // Create a search button (searchButton)
+ // Create a result element for the html(searchResults)
+// add an event listener for the search button for “click”
+ // create a function to get the information from the search input element
+ // create a function that filters and finds the selected searched item
+ // create a variable to target the product array(json), where the Id = 1, name: “Product 1” // add styling to the result section where the resulted items will appear
+// Add an event listener to the plantSelect dropdown menu
+const plantSelect = document.getElementById('plantSelect');
+plantSelect.addEventListener('change', () => {
+  const selectedPlantId = plantSelect.value; // Retrieve the selected value
   
- //  Implement a search bar that allows user to search for products by name 
-  const search = document.getElementById("searchBar");
-
-  search.style.display = "none";
-
-  search.addEventListener("click", function() {
-    search.style.display = "block";
-  });
-
-  search.addEventListener("change", function() {
-    search.addEventListener("change", function() {
-search.style.display = "none";
+  // Fetch the plant data from Firebase
+  const plantRef = ref(database, `plants/plant${selectedPlantId}`);
+  get(plantRef)
+    .then((snapshot) => {
+      if (snapshot.exists()) {
+        const plantData = snapshot.val();
+        
+        // Open a new window with the plant data
+        openPlantWindow(plantData);
+      } else {
+        console.log(`Plant ${selectedPlantId} does not exist in Firebase.`);
+      }
+    })
+    .catch((error) => {
+      console.error(`Error retrieving plant ${selectedPlantId} from Firebase:`, error);
     });
-  });
- // Create an input element for the search(searchInput) in the html
-  // Create a search button (searchButton)
-  // Create a result element for the html(searchResults)
- // add an event listener for the search button for “click”
-  // create a function to get the information from the search input element
-  // create a function that filters and finds the selected searched item
-  // create a variable to target the product array(json), where the Id = 1, name: “Product 1” // add styling to the result section where the resulted items will appear
-  // display searchResults in the results element
+});
+
+// Function to open a new window with the plant data
+function openPlantWindow(plantData) {
+  // Encode the plant data as query parameters
+  const params = new URLSearchParams(plantData);
+  const query = params.toString();
+  
+  // Create the URL with the encoded plant data
+  const url = `plantDetails.html?${query}`;
+  
+  // Open the new window with the URL
+  window.open(url, '_blank');
+}
+
 
  //  Implement a ratings and review system that allows user to leave feedback and ratings on products
   // create a carousel to hold the ratings and comments
