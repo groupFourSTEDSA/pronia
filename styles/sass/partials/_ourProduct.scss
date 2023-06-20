@@ -51,8 +51,18 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
-    }
+#plantSelect {
+    background-color: $greenColor;  
+    text-align: center;
+    color: $whiteColor;
+    padding: 16px 0px;
+    // padding-right: 0;
+    font-size: 16px;
+    border: none;``
+    cursor: pointer;
+} 
 
 .productImgContainer {
     display: flex;
