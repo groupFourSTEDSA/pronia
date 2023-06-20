@@ -47,6 +47,16 @@ const dbRef = ref(database);
         console.error("Error updating cart count in Firebase:", error);
       });
   }
+ eddybranch
+ 
+//  Implement a search bar that allows user to search for products by name 
+
+// Add an event listener to the plantSelect dropdown menu
+const plantSelect = document.getElementById('plantSelect');
+plantSelect.addEventListener('change', () => {
+  const selectedPlantId = plantSelect.value; // Retrieve the selected value
+=======
+ development
   
  //  Implement a search bar that allows user to search for products by name 
   const search = document.getElementById("searchBar");
