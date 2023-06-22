@@ -49,9 +49,14 @@ cartIcons.forEach((cartIcon) => {
       });
   }
  
-
 //  Implement a search bar that allows user to search for products by name 
-
+// Create an input element for the search(searchInput) in the html
+ // Create a search button (searchButton)
+ // Create a result element for the html(searchResults)
+// add an event listener for the search button for “click”
+ // create a function to get the information from the search input element
+ // create a function that filters and finds the selected searched item
+ // create a variable to target the product array(json), where the Id = 1, name: “Product 1” // add styling to the result section where the resulted items will appear
 // Add an event listener to the plantSelect dropdown menu
 const plantSelect = document.getElementById('plantSelect');
 plantSelect.addEventListener('change', () => {
@@ -87,6 +92,7 @@ function openPlantWindow(plantData) {
   // Open the new window with the URL
   window.open(url, '_blank');
 }
+
 
 //  Implement a ratings and review system that allows user to leave feedback and ratings on products
  // create a carousel to hold the ratings and comments
