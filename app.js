@@ -71,9 +71,19 @@ plantSelect.addEventListener('change', () => {
     .then((snapshot) => {
       if (snapshot.exists()) {
         const plantData = snapshot.val();
-        
+        console.log(plantData);
+        document.getElementsByClassName('productImgContainer')[0].innerHTML=`
+        <div class="imageBox">
+          <img src="${plantData.url}" alt="image of a ${plantData.name}">
+          <div class="iconBox">
+            <img class="cartIcon" src="./assets/icons/cart.svg" alt="image of a cart icon">
+          </div>
+          <p>${plantData.name}</p>
+          <p class="dollarColor">$${plantData.price}</p>
+        </div>
+        `
         // Open a new window with the plant data
-        openPlantWindow(plantData);
+        // openPlantWindow(plantData);
       } else {
         console.log(`Plant ${selectedPlantId} does not exist in Firebase.`);
       }
@@ -83,18 +93,6 @@ plantSelect.addEventListener('change', () => {
     });
 });
 
-// Function to open a new window with the plant data
-function openPlantWindow(plantData) {
-  // Encode the plant data as query parameters
-  const params = new URLSearchParams(plantData);
-  const query = params.toString();
-  
-  // Create the URL with the encoded plant data
-  const url = `plantDetails.html?${query}`;
-  
-  // Open the new window with the URL
-  window.open(url, '_blank');
-}
 
 
 //  Implement a ratings and review system that allows user to leave feedback and ratings on products
