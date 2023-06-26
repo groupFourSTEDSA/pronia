@@ -62,6 +62,7 @@ const plantSelect = document.getElementById('plantSelect');
 plantSelect.addEventListener('change', () => {
   const selectedPlantId = plantSelect.value; // Retrieve the selected value
   
+  
   // Fetch the plant data from Firebase
   const plantRef = ref(database, `plants/plant${selectedPlantId}`);
   get(plantRef)
