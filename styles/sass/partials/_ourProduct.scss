@@ -1,88 +1,101 @@
 @use "./variables" as *;
 // THIS IS THE OUR PRODUCTS SECTION
 section .ourProduct {
-    height: 100vh;
+  height: 100vh;
 }
 
 h2 {
-    font-size: 3rem;
-    margin-top: 60px;
-    text-align: center;
-    font-weight: bold;
+  font-size: 3rem;
+  margin-top: 60px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .ourProduct h2 {
-    position: relative;
-}
-// Hi friends!
-.ourProduct h2:before{
-    content: "";
-    display: block;
-    width: 50px;
-    height: 2px;
-    background: $greenColor;
-    position: absolute;
-    left: 32%;
-    top: 50%;
-    z-index: -2;
+  position: relative;
 }
 
-.ourProduct h2:after{
-    content: "";
-    display: block;
-    width: 50px;
-    height: 2px;
-    background: $greenColor;
-    position: absolute;
-    right: 32%;
-    top: 50%;
-    z-index: -2;
+.ourProduct h2:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: $greenColor;
+  position: absolute;
+  left: 32%;
+  top: 50%;
+  z-index: -2;
+}
+
+.ourProduct h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: $greenColor;
+  position: absolute;
+  right: 32%;
+  top: 50%;
+  z-index: -2;
 }
 
 .ourProductButtons {
-    text-align: center;
+  text-align: center;
 }
 
 .ourProductButtons button {
-    margin: 30px 10px 40px 10px;
+  margin: 30px 10px 40px 10px;
 }
 
 .search {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
 }
 
 #plantSelect {
-    background-color: $greenColor;  
-    text-align: center;
-    color: $whiteColor;
-    padding: 16px 0px;
-    // padding-right: 0;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-} 
+  background-color: $greenColor;
+  text-align: center;
+  color: $whiteColor;
+  padding: 16px 0px;
+  // padding-right: 0;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
 .productImgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  //   border: 2px $greenColor dotted;
+  justify-content: center;
+
+  .imageBox {
+    max-width: 100%;
+    max-height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 5px;
+    border: 5px $greenColor inset;
+  }
 }
 
 .iconBox {
-    width: 30px;
-    height: 30px;
-    box-shadow: 0px 1px 1px 1px #201e1e1f;
-    border: none;
-    padding: 7px;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 1px 1px 1px #201e1e1f;
+  border: none;
+  padding: 7px;
 }
 .cartIcon {
-    display: block;
+  display: block;
 }
 .imageBox {
-    width: 25%;
+  width: 25%;
 }
 
 .ourProduct .dollarColor {
-    color: $greenColor;
+  color: $greenColor;
 }
