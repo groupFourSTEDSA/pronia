@@ -44,9 +44,6 @@ cartIcons.forEach((cartIcon) => {
     // Set the count value in the "cart" node
     const cartRef = ref(database, "cart/cartNumber");
     set(cartRef, count)
-      .then(() => {
-        console.log("Cart count updated in Firebase");
-      })
       .catch((error) => {
         console.error("Error updating cart count in Firebase:", error);
       });
@@ -71,7 +68,6 @@ plantSelect.addEventListener('change', () => {
     .then((snapshot) => {
       if (snapshot.exists()) {
         const plantData = snapshot.val();
-        console.log(plantData);
         document.getElementsByClassName('productImgContainer')[0].innerHTML=`
         <div class="imageBox">
           <img src="${plantData.url}" alt="image of a ${plantData.name}">
@@ -95,22 +91,4 @@ plantSelect.addEventListener('change', () => {
 
 
 
-//  Implement a ratings and review system that allows user to leave feedback and ratings on products
- // create a carousel to hold the ratings and comments
- // select all slides
-// loop through slides and set each slides translateX property to index * 100% // current slide counter
- // maximum number of slides
- // select next slide button
-// add an eventListener and next slide functionality
- // check if current slide is the last and reset the current slide // move slide by -100%
- // select previous slide button
- // add an EventListener and next slide functionality
- // check if current slide is the last an reset current slide
-// move slide by -100%
-// create HTML form to create a review and rating form // target the form with getElementById
- // target the submit button getElementById
- // event.preventDefault();
-// create a container through html to hold the review and ratings // style the container to that holds the reviews and ratings
- // style the rating bar?
- // target the container using querySelector
-// store the review and rating in the database on Firebase // append the review and rating to the page
+//  Implement a search drop down menu
